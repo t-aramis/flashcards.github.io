@@ -1,0 +1,25 @@
+Culture G — application installable (version 3.4.0)
+
+Contenu du dossier
+  index.html              l'application
+  manifest.webmanifest    sa fiche d'identité (nom, icône, fenêtre)
+  sw.js                   le fonctionnement hors connexion
+  icon-*.png              les icônes
+
+Mise en ligne
+  1. Dépose les fichiers de ce dossier, tels quels et tous ensemble, sur un hébergeur
+     de pages statiques en https (gratuit chez la plupart : Netlify, GitHub Pages,
+     Cloudflare Pages...).
+  2. Ouvre l'adresse obtenue.
+  3. Installe : Réglages > Données > Application, ou l'icône d'installation de la
+     barre d'adresse (Chrome, Edge). Sur iPhone et iPad : Safari > Partager >
+     Sur l'écran d'accueil.
+
+À savoir
+  - Les données restent sur l'appareil, dans l'espace de stockage de l'application.
+    Elles sont liées à l'adresse du site : si tu changes d'adresse, passe par
+    Réglages > Données > Sauvegarde intégrale.
+  - Pour reprendre tes cartes de claude.ai : « Tout sauvegarder » dans l'artefact,
+    puis « Restaurer une sauvegarde » dans l'application.
+  - Pour mettre à jour : remplace index.html sur l'hébergeur. L'application prend
+    la nouvelle version à l'ouverture suivante avec connexion.
